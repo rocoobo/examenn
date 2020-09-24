@@ -1,0 +1,205 @@
+
+body{
+	font-size: Segoe UI;
+	font-size: 15px;
+	color: #777;
+}
+
+
+header{
+	position: relative;
+	background-color: #282932;
+	width: 100%;
+	top:0;
+	border-bottom: 1px dashed rgba(255, 255, 255, 0.15);
+}
+
+
+#hero{
+	background-image: url("../img/slider-glob.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center;
+	color: #FFF;
+	background-color: #000000;
+	padding: 10% 0;	
+}
+
+#hero h1{
+	font-size: 70px;
+	font-weight: 700;
+}
+
+#hero h2{
+	font-size: 24px;
+	margin-top: 40px;
+	margin-bottom: 50px;
+	color: #cacaca;
+}
+
+#hero .btn, #products .btn, .btn-azul, .btn-blanco{
+	text-transform: uppercase;
+	padding: 15px 40px;
+	font-weight: 600px;
+	letter-spacing: 1px;
+	border-radius: 40px;
+}
+
+.title{
+	font-weight: 700;
+	text-align: center;
+	font-size: 50px;
+	color: #303132;
+	margin-bottom: 40px;
+}
+
+.subtitle{
+	text-align: center;
+	font-size: 18px;
+	margin-bottom: 40px;
+}
+
+.section{
+	padding: 80px 0;
+}
+
+
+
+#reviews{
+	background-color: #fff;
+	text-align: center;
+}
+
+#reviews .title{
+	color: #fff;
+}
+
+#reviews article{
+	padding: 0 20px;
+}
+
+
+.info-reviews h3{
+	color: #203132;
+	font-size: 14px;
+	text-transform: uppercase;
+	font-weight: 600;
+	margin-top: 30px;
+}
+
+.info-reviews h4{
+	font-size: 14px;
+	font-weight: 400;
+	margin-bottom: 20px;
+}
+
+.info-reviews p{
+	font-size: 16px;
+}
+
+#reviews article:first-child,
+#reviews article:last-child{
+	margin-top: 0px;
+}
+
+#reviews article:nth-child(2){
+	margin-top: -25px;
+}
+
+#reviews .row{
+	padding-top: 40px;
+}
+
+.btn-amarillo{
+	
+	background-color: #FAAC19;
+	padding: 15px  50px;
+	border:none;
+	border-radius: 0px;
+	text-align: center;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+#products{
+	background-color: #000000;
+	color: #ffffff;
+}
+
+#products .title{
+	text-align: left;
+	color: #fff;
+}
+
+#products .subtitle{
+	text-align: left;
+	color: #d2d2d2;
+	font-size: 18px;
+}
+
+.titlepad{
+	padding-top: 100px;
+}
+
+#prods .title{
+	text-align: left;
+	margin-top: 130px;
+	margin-bottom: 5px;
+}
+
+#prods h3{
+	text-transform: uppercase;
+	color: #4859fc;
+	font-size: 13px;
+	letter-spacing: 1px;
+	margin-bottom: 30px;
+}
+
+#prods h4{
+	text-transform: uppercase;
+	color: #4859fc;
+	font-size: 8px;
+	letter-spacing: 1px;
+	margin-bottom: 30px;
+}
+#prods p{
+	font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+	background-color: #282932;
+	background-image: url(../img/footer-bg.png);
+	background-size: cover;
+	padding-top: 40px;
+	color: rgba(255, 255, 255, 0.55);
+	text-align: center;
+	font-size: 13px;
+	font-weight: 600;
+}
+footer p span{
+	color: #f7b614;
+}
+footer #copy{
+	padding: 20px 0;
+	margin-top: 5%;
+	color: #fff;
+	border-top: 1px dashed rgba(255, 255, 255, 0.15);
+}
